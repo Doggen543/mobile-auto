@@ -1,0 +1,119 @@
+#Onboarding 
+auth_permisson_next_btn:
+  android:  id=com.migo.androidplayer:id/tvButton
+auth_permisson_storage_allow_btn:
+  android:  id=com.android.permissioncontroller:id/permission_allow_button
+auth_permisson_location_allow_btn:
+  android:  id=com.android.permissioncontroller:id/permission_allow_foreground_only_button
+
+auth_register_login_next_btn:
+  android:  id=com.migo.androidplayer:id/tvButtonNext
+auth_register_login_btn:
+  android:  id=com.migo.androidplayer:id/tv_register_login
+auth_browse_first_btn:
+  android:  id=com.migo.androidplayer:id/tv_not_register_login
+
+#Prefer genre
+auth_genre_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+auth_genres_Drama:
+  android:  xpath=//*[contains(@text, "Drama")]  
+auth_genres_Petualangan:
+  android:  xpath=//*[contains(@text, "Petualangan")]
+auth_genres_Keluarga:
+  android:  xpath=//*[contains(@text, "Keluarga")]
+auth_genres_Aksi:
+  android:  xpath=//*[contains(@text, "Aksi")]  
+auth_genres_Horor:
+  android:  xpath=//*[contains(@text, "Horor")]
+auth_genres_Komedi:
+  android:  xpath=//*[contains(@text, "Komedi")]  
+auth_genres_Anime:
+  android:  xpath=//*[contains(@text, "Anime")]  
+auth_genres_Reality:
+  android:  xpath=//*[contains(@text, "Reality")]
+auth_genres_Romansa:
+  android:  xpath=//*[contains(@text, "Romansa")]
+auth_genres_Anakanak:
+  android:  xpath=//*[contains(@text, "Anak")]  
+auth_genres_Edukasi:
+  android:  xpath=//*[contains(@text, "Edukasi")]
+auth_genres_KDrama:
+  android:  xpath=//*[contains(@text, "K-Drama")]
+auth_genre_btn:
+  android:  id=com.migo.androidplayer:id/submitButton
+
+#First catalog entering
+auth_coach_section:
+  android:  id=com.migo.androidplayer:id/tv_desc
+auth_coach_ok:
+  android:  id=com.migo.androidplayer:id/tv_confirm
+
+#====Login====
+auth_register_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+auth_register_countrycode:
+  android:  id=com.migo.androidplayer:id/tv_countryCode
+auth_register_phone_field:
+  android:  id=com.migo.androidplayer:id/textinput_placeholder
+auth_register_helphint:
+  android:  id=com.migo.androidplayer:id/tv_help_hint
+auth_register_agree_btn:
+  android:  id=com.migo.androidplayer:id/button_next
+
+#====otp====
+auth_otp_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+auth_otp_desc:
+  android:  id=com.migo.androidplayer:id/tv_subtitle
+
+auth_register_otp_1:
+  android:  id=com.migo.androidplayer:id/et_1
+auth_register_otp_2:
+  android:  id=com.migo.androidplayer:id/et_2
+auth_register_otp_3:
+  android:  id=com.migo.androidplayer:id/et_3
+auth_register_otp_4:
+  android:  id=com.migo.androidplayer:id/et_4
+auth_register_otp_5:
+  android:  id=com.migo.androidplayer:id/et_5
+auth_register_otp_6:
+  android:  id=com.migo.androidplayer:id/et_6
+
+auth_register_resend_btn:
+  android:  id=com.migo.androidplayer:id/tv_resend_hint
+auth_register_resend_hint:
+  android:  id=com.migo.androidplayer:id/tv_help_hint
+
+auth_register_dialog:
+  android:  id=com.migo.androidplayer:id/tv_title
+auth_register_description:
+  android:  id=com.migo.androidplayer:id/tv_description
+auth_register_dialog_ok:
+  android:  id=com.migo.androidplayer:id/tv_positive_button
+
+
+#==Hello page and personal info======
+auth_Hello_info_title:
+  android:  id=com.migo.androidplayer:id/tv_greeting
+auth_Hello_info_subtitle:
+  android:  id=com.migo.androidplayer:id/tv_subtitle
+
+auth_Hello_info_name:
+  android:  xpath=//android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
+auth_Hello_info_gender:
+  android:  xpath=//android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.Spinner
+auth_Hello_info_birday:
+  android:  xpath=//android.widget.FrameLayout[3]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.Spinner
+auth_Hello_info_ig:
+  android:  xpath=//android.widget.FrameLayout[4]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
+auth_Hello_info_refferl:
+  android:  xpath=//android.widget.FrameLayout[5]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
+
+auth_Hello_info_next_btn:
+  android:  id=com.migo.androidplayer:id/btn_next
+
+auth_login_success_toast:
+  android:  id=com.migo.androidplayer:id/ct_toast
+
+

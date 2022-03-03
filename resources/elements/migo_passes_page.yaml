@@ -1,0 +1,229 @@
+passes_main_tab:
+  android:  xpath=//*[contains(@text, "Passes")]
+
+#onboard_tutorials
+passes_onboard_tutorials_skip:
+  android:  id=com.migo.androidplayer:id/tv_skip
+passes_onboard_tutorials_img:
+  android:  id=com.migo.androidplayer:id/iv_image
+passes_onboard_tutorials_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+passes_onboard_tutorials_subtitle:
+  android:  id=com.migo.androidplayer:id/tv_subtitle
+passes_onboard_tutorials_btn:
+  android:  id=com.migo.androidplayer:id/btn_cta
+
+
+
+##Migo Pass Status
+passes_migo_passes_status:
+  android:  xpath=//android.widget.FrameLayout[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[1]
+passes_migo_passes_status_desc:
+  android:  id=com.migo.androidplayer:id/tv_desc
+
+#Migo Passes
+passes_migo_passes_tab:
+  android:  xpath=//*[contains(@text, "Migo Passes")]
+#1 day
+passes_migo_passes_1_day:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]   
+passes_migo_passes_1_day_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[2]   
+passes_migo_passes_1_day_promo_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]   
+passes_migo_passes_1_day_buy_btn:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.Button  
+#3 day
+passes_migo_passes_3_day:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView[1]   
+passes_migo_passes_3_day_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView[2]   
+passes_migo_passes_3_day_promo_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView[3]   
+passes_migo_passes_3_day_buy_btn:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.Button  
+#7 day
+passes_migo_passes_7_day:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[1]   
+passes_migo_passes_7_day_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[2]   
+passes_migo_passes_7_day_promo_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[3]   
+passes_migo_passes_7_day_buy_btn:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.Button  
+#30 day
+passes_migo_passes_30_day:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.TextView[1]   
+passes_migo_passes_30_day_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.TextView[2]   
+passes_migo_passes_30_day_promo_price:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.TextView[3]   
+passes_migo_passes_30_day_buy_btn:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.Button  
+
+#Migo Pass is Limited Dialog
+passes_mds_far_dialog:
+  android:  id=com.migo.androidplayer:id/cl_dialog  
+passes_mds_far_dialog_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+passes_mds_far_dialog_find:
+  android:  id=com.migo.androidplayer:id/button_positive
+passes_mds_far_dialog_continue:
+  android:  id=com.migo.androidplayer:id/button_negative
+
+#Buy Migo pass layer 1
+passes_buypass_close:
+  android:  id=com.migo.androidplayer:id/button_close
+passes_buypass_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+passes_buypass_type:
+  android:  id=com.migo.androidplayer:id/tv_passType
+passes_buypass_price:
+  android:  id=com.migo.androidplayer:id/tv_price
+passes_buypass_method:
+  android:  id=com.migo.androidplayer:id/cv_paymentMethod
+passes_buypass_method_title:
+  android:  id=com.migo.androidplayer:id/tv_paymentMethod_title
+passes_buypass_method_desc:
+  android:  id=com.migo.androidplayer:id/tv_paymentMethod_desc
+passes_buypass_method_name:
+  android:  id=com.migo.androidplayer:id/tv_paymentMethod_name
+passes_buypass_method_icon:
+  android:  id=com.migo.androidplayer:id/iv_paymentMethod_icon
+passes_buypass_pay:
+  android:  id=com.migo.androidplayer:id/button_continueToPay
+
+#Buy Migo pass layer 2
+#Account Tab -> Same here (Select method)
+passes_select_paymentmethod:
+  android:  xpath=//*[contains(@text, "Payment Methods")]
+passes_select_paymentmethod_close:
+  android:  xpath=//android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton
+passes_select_method:
+  android:  id=com.migo.androidplayer:id/tv_selectMethod
+#Cash
+passes_select_method_cash_desc:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[1]/android.view.ViewGroup/android.widget.TextView[1]
+passes_select_method_cash_name:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[1]/android.view.ViewGroup/android.widget.TextView[2]
+passes_select_method_cash_icon:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[1]/android.view.ViewGroup/android.widget.ImageView
+passes_select_method_cash_radio_btn:
+  android:  xpath=//androidx.cardview.widget.CardView[1]/android.view.ViewGroup/android.widget.RadioButton
+#OVO
+passes_select_method_ovo_desc:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[2]/android.view.ViewGroup/android.widget.TextView[1]
+passes_select_method_ovo_name:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[2]/android.view.ViewGroup/android.widget.TextView[2]
+passes_select_method_ovo_icon:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[2]/android.view.ViewGroup/android.widget.ImageView
+passes_select_method_ovo_radio_btn:
+  android:  xpath=//androidx.cardview.widget.CardView[2]/android.view.ViewGroup/android.widget.RadioButton
+#DANA
+passes_select_method_dana_desc:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[3]/android.view.ViewGroup/android.widget.TextView[1]
+passes_select_method_dana_name:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[3]/android.view.ViewGroup/android.widget.TextView[2]
+passes_select_method_dana_icon:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[3]/android.view.ViewGroup/android.widget.ImageView
+passes_select_method_dana_radio_btn:
+  android:  xpath=//androidx.cardview.widget.CardView[3]/android.view.ViewGroup/android.widget.RadioButton
+#Shopeepay
+passes_select_method_shopeepay_desc:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[4]/android.view.ViewGroup/android.widget.TextView[1]
+passes_select_method_shopeepay_name:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[4]/android.view.ViewGroup/android.widget.TextView[2]
+passes_select_method_shopeepay_icon:
+  android:  xpath=//android.widget.LinearLayout/androidx.cardview.widget.CardView[4]/android.view.ViewGroup/android.widget.ImageView
+passes_select_method_shopeepay_radio_btn:
+  android:  xpath=//androidx.cardview.widget.CardView[4]/android.view.ViewGroup/android.widget.RadioButton
+#save
+passes_select_method_save_btn:
+  android:  id=com.migo.androidplayer:id/button_save 
+
+
+#No download Dialog
+passes_no_download_dialog:
+  android:  id=com.migo.androidplayer:id/cl_dialog  
+passes_no_download_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+passes_no_download_find:
+  android:  id=com.migo.androidplayer:id/button_positive
+passes_no_download_continue:
+  android:  id=com.migo.androidplayer:id/button_negative
+
+#Cash transaction dialog !!...
+passes_buy_dialog:
+  android:  id=com.migo.androidplayer:id/cl_dialog_content
+passes_buy_dialog_icon:
+  android:  id=com.migo.androidplayer:id/iv_transaction_icon
+passes_buy_dialog_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+passes_buy_dialog_subtitle:
+  android:  id=com.migo.androidplayer:id/tv_sub_title
+
+passes_buy_dialog_transaction_code:
+  android:  id=com.migo.androidplayer:id/tv_transaction_code
+passes_buy_dialog_expired_time:
+  android:  id=com.migo.androidplayer:id/tv_expired_time
+
+passes_buy_dialog_item:
+  android:  id=com.migo.androidplayer:id/tv_purchase_name
+passes_buy_dialog_item_value:
+  android:  id=com.migo.androidplayer:id/tv_purchase
+passes_buy_dialog_total:
+  android:  id=com.migo.androidplayer:id/tv_total_name
+passes_buy_dialog_total_value:
+  android:  id=com.migo.androidplayer:id/tv_total_text
+passes_buy_dialog_transaction_id:
+  android:  id=com.migo.androidplayer:id/tv_transaction_id_name
+passes_buy_dialog_transaction_id_value:
+  android:  id=com.migo.androidplayer:id/tv_transaction_id_text
+
+passes_buy_dialog_find_mds_cta:
+  android:  id=com.migo.androidplayer:id/tv_find_location
+passes_buy_dialog_cancel:
+  android:  id=com.migo.androidplayer:id/button_cancel
+
+
+#Buy successfully
+passes_buy_dialog_completed_purchase:
+  android:  id=com.migo.androidplayer:id/tv_result_title
+passes_buy_dialog_view_btn:
+  android:  id=com.migo.androidplayer:id/button_action
+
+
+
+#My Passes
+passes_my_passes_tab:
+  android:  xpath=//*[contains(@text, "My Passes")]
+passes_my_passes_no_passes:
+  android:  xpath=//*[contains(@text, "You have no Migo Passes saved")]
+passes_my_passes_no1_passes:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup
+passes_my_passes_active_pass_btn:
+  android:  id=com.migo.androidplayer:id/button_active
+passes_my_passes_active_pass_dialog:
+  android:  id=com.migo.androidplayer:id/cl_dialog
+passes_my_passes_active_pass_dialog_active_btn:
+  android:  id=com.migo.androidplayer:id/button_positive
+passes_my_passes_active_pass_dialog_active_cancel:
+  android:  id=com.migo.androidplayer:id/button_negative
+
+
+
+#Promo code
+passes_promo_code_tab:
+  android:  xpath=//*[contains(@text, "Promo Code")]
+passes_promo_code_field:
+  android:  id=com.migo.androidplayer:id/migoTextInputEditText
+passes_promo_code_redeem_btn:
+  android:  id=com.migo.androidplayer:id/button_redeem
+passes_promo_code_redeem_error:
+  android:  id=com.migo.androidplayer:id/textinput_error
+passes_promo_code_redeem_result_dialog:
+  android:  id=com.migo.androidplayer:id/cl_dialog
+passes_promo_code_redeem_result_dialog_title:
+  android:  id=com.migo.androidplayer:id/tv_status_title
+passes_promo_code_redeem_result_dialog_title_btn:
+  android:  id=com.migo.androidplayer:id/button_positive

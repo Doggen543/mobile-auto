@@ -1,0 +1,44 @@
+location_main_tab:
+  android:  xpath=//*[contains(@text, "Location")]
+#onboard_tutorials
+location_onboard_tutorials_skip:
+  android:  id=com.migo.androidplayer:id/tv_skip
+location_onboard_tutorials_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+location_onboard_tutorials_desc:
+  android:  id=com.migo.androidplayer:id/tv_desc
+location_onboard_tutorials_btn:
+  android:  id=com.migo.androidplayer:id/tv_submit
+
+#Tutorials
+location_tutorials_btn:
+  android:  id=com.migo.androidplayer:id/ivTutorialBtn
+location_tutorials_close:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_close
+location_tutorials_next_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_cta
+location_tutorials_MDS_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_cta
+#MDS list
+location_list_btn:
+  android:  id=com.migo.androidplayer:id/ivListBtn
+location_list_title:
+  android:  id=//*[contains(@text, "Warung Migo Areas")]
+location_back_btn:
+  android:  xpath=//android.view.ViewGroup[1]/android.widget.ImageButton
+location_map_btn:
+  android:  id=com.migo.androidplayer:id/mapButton
+location_location_icon:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.ImageView
+location_warung_migo:
+  android:  xpath=//android.view.ViewGroup[3]/android.widget.LinearLayout/android.widget.TextView[3]
+
+location_warung_title:
+  android:  xpath=//*[contains(@text, "Pasar Sawo Tanjung Lengkong")]
+location_warung_name:
+  android:  id=com.migo.androidplayer:id/titleText
+location_warung_show_btn:
+  android:  id=com.migo.androidplayer:id/showInMapText
+
+location_location_btn:
+  android:  id=com.migo.androidplayer:id/ivLocateBtn

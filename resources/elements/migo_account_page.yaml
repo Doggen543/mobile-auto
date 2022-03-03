@@ -1,0 +1,286 @@
+account_main_tab:
+  android:  xpath=//*[contains(@text, "Account")]
+
+#Profile
+account_profile_avatar:
+  android:  id=com.migo.androidplayer:id/iv_avatar
+account_profile_welcome:
+  android:  id=com.migo.androidplayer:id/tv_welcome
+account_profile_uid:
+  android:  id=com.migo.androidplayer:id/tv_user_id
+account_profile_more:
+  android:  id=com.migo.androidplayer:id/iv_account_more
+
+account_profile_info_title:
+  android:  id=tv_account_info_title
+account_profile_info:
+  android:  id=com.migo.androidplayer:id/tv_account_info
+account_profile_verified:
+  android:  id=com.migo.androidplayer:id/iv_verified
+account_profile_icon:
+  android:  id=com.migo.androidplayer:id/tv_verified
+
+account_profile_info_back:
+  android:  xpath=//android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageButton
+
+account_profile_info_fullname:
+  android:  xpath=//android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
+account_profile_info_gender:
+  android:  xpath=//android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.Spinner
+account_profile_info_birthday:
+  android:  xpath=//android.widget.FrameLayout[3]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.Spinner
+account_profile_info_ig:
+  android:  xpath=//android.widget.FrameLayout[4]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
+account_profile_info_referral:
+  android:  xpath=//android.widget.FrameLayout[5]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText
+account_profile_info_save_btn:
+  android:  id=com.migo.androidplayer:id/button_save
+account_profile_info_save_toast:
+  android:  id=com.migo.androidplayer:id/toast_root
+
+#My Rewards
+account_rewards_gift:
+  android:  id=com.migo.androidplayer:id/iv_gift
+account_rewards_reward:
+  android:  id=com.migo.androidplayer:id/tv_reward
+account_rewards_giftcount:
+  android:  id=com.migo.androidplayer:id/tv_gift_count
+account_rewards_migo_point:
+  android:  id=com.migo.androidplayer:id/tv_migo_point
+account_rewards_description:
+  android:  id=com.migo.androidplayer:id/tv_point_description
+#My Rewards-Migo point page
+account_rewards_point_back_btn:
+  android:  xpath=//android.widget.ImageButton
+account_rewards_point_number:
+  android:  id=com.migo.androidplayer:id/textPoint
+account_rewards_point_description:
+  android:  id=com.migo.androidplayer:id/textPointDescription
+account_rewards_point_level:
+  android:  id=com.migo.androidplayer:id/imageLevel
+#My Rewards-Migo Levels tab
+account_rewards_point_levels_tab:
+  android:  xpath=//*[contains(@text, "Levels")]
+account_rewards_point_levels_section:
+  android:  id=com.migo.androidplayer:id/levelRecyclerView
+#My Rewards-Migo Levels tab-redeem gift
+account_rewards_point_levels_gift1:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.ImageView
+account_rewards_point_levels_claim_close:
+  android:  id=com.migo.androidplayer:id/buttonClose
+account_rewards_point_levels_claim_img:
+  android:  id=com.migo.androidplayer:id/imageClaimGift
+account_rewards_point_levels_claim_title:
+  android:  id=com.migo.androidplayer:id/textClaimGiftTitle
+account_rewards_point_levels_claim_btn:
+  android:  id=com.migo.androidplayer:id/buttonClaimPrize
+#My Rewards-Migo Levels tab-redeem gift-claim dialog
+account_rewards_point_levels_claim_code_title:
+  android:  id=com.migo.androidplayer:id/tv_claim_code_title
+account_rewards_point_levels_claim_code_field:
+  android:  id=com.migo.androidplayer:id/migoTextInputEditText
+account_rewards_point_levels_claim_code_confrim_btn:
+  android:  id=com.migo.androidplayer:id/tv_claim
+account_rewards_point_levels_claim_code_cancel_btn:
+  android:  id=com.migo.androidplayer:id/tv_cancel
+account_rewards_point_levels_claim_code_error:
+  android:  id=com.migo.androidplayer:id/textinput_error
+
+#My Rewards-Migo Earn tab
+account_rewards_point_earn_tab:
+  android:  xpath=//*[contains(@text, "Earn")]
+account_rewards_point_earn_section:
+  android:  id=com.migo.androidplayer:id/recycler
+#My Rewards-Migo History tab
+account_rewards_point_history_tab:
+  android:  xpath=//*[contains(@text, "History")]
+account_rewards_point_history_section:
+  android:  id=com.migo.androidplayer:id/recycler
+
+#Payment methods
+account_payment_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.ImageView[1]
+account_payment:
+  android:  xpath=//*[contains(@text, "Payment Methods")]
+account_payment_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.ImageView[2]
+
+#Transaction History
+account_transactiont_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.ImageView[1]
+account_transactiont:
+  android:  xpath=//*[contains(@text, "Transaction History")]
+account_transactiont_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.ImageView[2]
+account_transactiont_thelatest_history_time:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]
+account_transactiont_thelatest_history_trans_num:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[2]
+account_transactiont_thelatest_history_day:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]
+account_transactiont_thelatest_history_price:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[4]
+account_transactiont_thelatest_history_method:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[5]
+account_transactiont_thelatest_history_status:
+  android:  xpath=//android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[6]
+
+
+
+#Setting
+account_setting_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.ImageView[1]
+account_setting:
+  android:  xpath=//*[contains(@text, "Setting")]
+account_setting_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.ImageView[2]
+
+account_setting_account:
+  android:  id=com.migo.androidplayer:id/tv_account
+account_setting_profileinfo:
+  android:  id=com.migo.androidplayer:id/tv_profile_information
+
+#Parental Control
+account_parental_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[5]/android.widget.ImageView[1]
+account_parental:
+  android:  xpath=//*[contains(@text, "Parental Control")]
+account_parental_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[5]/android.widget.ImageView[2]
+
+account_parental_control_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+account_parental_control_subtitle:
+  android:  id=com.migo.androidplayer:id/tv_subtitle
+account_parental_control_graph:
+  android:  id=com.migo.androidplayer:id/iv_graphic
+account_parental_control_bar:
+  android:  id=com.migo.androidplayer:id/view_parental_control_item
+account_parental_control_toggle:
+  android:  id=com.migo.androidplayer:id/switch_parental_control
+account_parental_learn_more:
+  android:  id=com.migo.androidplayer:id/tv_learn_more
+#SU/R13+ /D17+ /D21+ 
+account_parental_learn_more_dialog:
+  android:  id=com.migo.androidplayer:id/tv_description
+account_parental_learn_more_dialog_btn:
+  android:  id=com.migo.androidplayer:id/tv_positive_button
+#pin code
+account_parental_set_pin:
+  android:  id=com.migo.androidplayer:id/tv_description
+account_parental_set_pin_field1:
+  android:  id=com.migo.androidplayer:id/et_1
+account_parental_set_pin_field2:
+  android:  id=com.migo.androidplayer:id/et_2
+account_parental_set_pin_field3:
+  android:  id=com.migo.androidplayer:id/et_3
+account_parental_set_pin_field4:
+  android:  id=com.migo.androidplayer:id/et_4
+
+account_parental_set_pin_error:
+  android:  id=com.migo.androidplayer:id/tv_pin_error
+account_parental_set_pin_btn:
+  android:  id=com.migo.androidplayer:id/button_ok
+
+#Set Content Restriction
+account_parental_restriction_display:
+  android:  xpath=//android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]
+account_parental_restriction_21_btn:
+  android:  id=com.migo.androidplayer:id/iv_lock_d21
+#D17+ media : Twisted, John Wick, 31
+account_parental_restriction_17_btn:
+  android:  id=com.migo.androidplayer:id/iv_lock_d17
+#R13+ media : Taxi Driver, Hello Stranger, Sumber Rezeki
+account_parental_restriction_13_btn:
+  android:  id=com.migo.androidplayer:id/iv_lock_r13
+account_parental_restriction_save_btn:
+  android:  id=com.migo.androidplayer:id/button_save
+
+
+#Parental Control Home Page
+account_parental_home_level:
+  android:  id=com.migo.androidplayer:id/tv_restriction_level
+account_parental_home_parental_control:
+  android:  id=com.migo.androidplayer:id/view_parental_control_item
+account_parental_home_change_restriction:
+  android:  id=com.migo.androidplayer:id/tv_change_restriction
+account_parental_home_tv_reset_pin:
+  android:  id=com.migo.androidplayer:id/tv_reset_pin
+
+
+
+#Migo App Tutorial
+account_tutorial_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.widget.ImageView[1]
+account_tutorial:
+  android:  xpath=//*[contains(@text, "Migo App Tutorial")]
+account_tutorial_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.widget.ImageView[2]
+account_tutorials_close:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_close
+account_tutorials_next_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_cta
+account_tutorials_MDS_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_cta
+
+#Help Center
+account_help_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[7]/android.widget.ImageView[1]
+account_help:
+  android:  xpath=//*[contains(@text, "Help Center")]
+account_help_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[7]/android.widget.ImageView[2]
+acount_help_back_btn:
+  android:  xpath=//android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageButton
+account_help_contact_us:
+  android:  id=com.migo.androidplayer:id/textContactUs
+account_help_whatsapp:
+  android:  id=com.migo.androidplayer:id/textWhatsAppTitle
+account_help_whatsapp_content:
+  android:  id=com.migo.androidplayer:id/textWhatsAppContent
+account_help_facebook:
+  android:  id=com.migo.androidplayer:id/textFacebookTitle
+account_help_facebook_content:
+  android:  id=com.migo.androidplayer:id/textFacebookMessengerContent
+account_help_ig:
+  android:  id=com.migo.androidplayer:id/textInstagramTitle
+account_help_ig_content:
+  android:  id=com.migo.androidplayer:id/textInstagramContent
+account_help_termsofuse:
+  android:  id=com.migo.androidplayer:id/textTermsOfUse
+account_help_userid:
+  android:  id=com.migo.androidplayer:id/textUserId
+
+#Send your wishlist
+account_wishlist_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[8]/android.widget.ImageView[1]
+account_wishlist:
+  android:  xpath=//*[contains(@text, "Send your wishlist")]
+account_wishlist_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[8]/android.widget.ImageView[2]
+
+#Share Feedback
+account_feedback_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[9]/android.widget.ImageView[1]
+account_feedback:
+  android:  xpath=//*[contains(@text, "Share Feedback")]
+account_feedback_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[9]/android.widget.ImageView[2]
+
+#Follow us
+account_follow_icon:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[10]/android.widget.ImageView[1]
+account_follow:
+  android:  xpath=//*[contains(@text, "Follow us")]
+account_follow_more:
+  android:  xpath=//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[10]/android.widget.ImageView[2]
+
+#logout
+account_logout:
+  android:  id=com.migo.androidplayer:id/tv_logout
+account_logout_confrim_btn:
+  android:  id=com.migo.androidplayer:id/tv_positive
+  
+account_version:
+  android:  id=com.migo.androidplayer:id/tv_app_version
+

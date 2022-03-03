@@ -1,0 +1,11 @@
+app_activity:
+  migo:
+    android: com.migo.androidplayer.ui.activity.splash.SplashActivity
+automation_name:
+  android: UiAutomator2
+platform_name:
+  android: Android
+
+
+
+

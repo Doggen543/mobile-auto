@@ -1,0 +1,117 @@
+downloads_main_tab:
+  android:  xpath=//*[contains(@text, "Downloads")]
+downloads_page_title:
+  android:  id=com.migo.androidplayer:id/txtToolBarTitle
+downloads_file_manager:
+  android:  id=com.migo.androidplayer:id/ll_file_manage
+
+#onboard_first_download
+downloads_first_download_page_title:
+  android:  id=com.migo.androidplayer:id/text_title
+downloads_first_download_page_subtitle:
+  android:  id=com.migo.androidplayer:id/text_subtitle
+downloads_first_download_page_img:
+  android:  id=com.migo.androidplayer:id/image_download_graphic
+downloads_first_download_page_btn:
+  android:  id=com.migo.androidplayer:id/btn_next
+
+
+downloads_no_any_movies_text:
+  android:  xpath=//*[contains(@text, "Download movie and TV shows to watch offline without quota.")]
+downloads_no_any_movies_btn:
+  android:  xpath=//*[contains(@text, "Browse Catalog")]
+
+#File Manager 
+downloads_manage_migo_files_title:
+  android:  id=com.migo.androidplayer:id/txtToolBarTitle
+downloads_manage_migo_files_close:
+  android:  id=com.migo.androidplayer:id/toolbar_ic
+downloads_manage_migo_files_internalstorage:
+  android:  id=com.migo.androidplayer:id/iv_storage_name
+downloads_manage_migo_files_migo:
+  android:  xpath=//*[contains(@text, "Migo")]
+downloads_manage_migo_files_otherfiles:
+  android:  xpath=//*[contains(@text, "Other Files")]
+downloads_manage_migo_files_free:
+  android:  xpath=//*[contains(@text, "Free")]
+downloads_manage_migo_files_deleteall:
+  android:  id=com.migo.androidplayer:id/tv_delete_all
+downloads_manage_migo_files_tvshows:
+  android:  xpath=//*[contains(@text, "TV SHOWS")]
+downloads_manage_migo_files_movies:
+  android:  xpath=//*[contains(@text, "MOVIES")]
+downloads_manage_migo_files_deletebtn:
+  android:  xpath=//android.view.ViewGroup[1]/android.widget.ImageView[1]
+
+downloads_delete_popup_title:
+  android:  id=com.migo.androidplayer:id/tv_title
+downloads_delete_popup_delete:
+  android:  id=com.migo.androidplayer:id/tv_positive
+downloads_delete_popup_cancel:
+  android:  id=com.migo.androidplayer:id/tv_negative
+
+#Tutorials
+downloads_tutorials_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial
+downloads_tutorials_close:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_close
+downloads_tutorials_next_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_cta
+downloads_tutorials_MDS_btn:
+  android:  id=com.migo.androidplayer:id/btn_tutorial_cta
+
+#Alert Bar (for first)
+downloads_wifi_remind_alert:
+  android:  id=com.migo.androidplayer:id/iv_pink_alert
+downloads_wifi_remind_title:
+  android:  id=com.migo.androidplayer:id/tv_hint_title
+downloads_wifi_remind_learnmore:
+  android:  id=com.migo.androidplayer:id/acb_learn_more
+
+#download
+downloads_file_tvshows:
+  android:  xpath=//*[contains(@text, "TV SHOWS")]
+downloads_file_movies:
+  android:  xpath=//*[contains(@text, "MOVIES")]
+
+downloads_state:
+  android:  id=com.migo.androidplayer:id/downloadStateText
+#queue
+downloads_saved_queue:
+  android:  xpath=//android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.TextView
+
+#Switch Network and Check Video playing
+downloads__wifi_dialog_title:
+  android:  id=com.migo.androidplayer:id/tv_instruction_title
+downloads_wifi_dialog_img:
+  android:  id=com.migo.androidplayer:id/iv_connect_to_migo_wifi
+downloads_wifi_dialog_setting_btn:
+  android:  id=com.migo.androidplayer:id/acb_open_wifi_setting
+downloads_wifi_dialog_location_btn:
+  android:  id=com.migo.androidplayer:id/acb_view_location
+
+downloads_wifi_public:
+  android:  xpath=//*[contains(@text, "MigoAlpha")]
+downloads_wifi_mds:
+  android:  xpath=//*[contains(@text, "@alpha-prod-demo-A")]
+
+#Check Video playing
+downloads_play_video_icon:
+  android:  id=com.migo.androidplayer:id/playButton
+
+downloads_video_surfaceView:
+  android:  id=com.migo.androidplayer:id/surfaceView
+downloads_video_title:
+  android:  id=com.migo.androidplayer:id/titleText
+downloads_video_seekbar:
+  android:  id=com.migo.androidplayer:id/seekBar
+downloads_play_back_btn:
+  android:  id=com.migo.androidplayer:id/backButton
+downloads_video_play_btn:
+  android:  id=com.migo.androidplayer:id/playButton
+downloads_video_rewind_btn:
+  android:  id=com.migo.androidplayer:id/rewindButton
+downloads_video_forward_btn:
+  android:  id=com.migo.androidplayer:id/forwardButton
+downloads_video_leftdurationtext:
+  android:  id=com.migo.androidplayer:id/leftDurationText

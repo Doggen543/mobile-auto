@@ -1,0 +1,7 @@
+robotframework_metrics.egg-info/PKG-INFO
+robotframework_metrics.egg-info/SOURCES.txt
+robotframework_metrics.egg-info/dependency_links.txt
+robotframework_metrics.egg-info/entry_points.txt
+robotframework_metrics.egg-info/not-zip-safe
+robotframework_metrics.egg-info/requires.txt
+robotframework_metrics.egg-info/top_level.txt
