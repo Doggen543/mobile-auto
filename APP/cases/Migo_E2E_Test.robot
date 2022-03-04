@@ -22,7 +22,7 @@ Variables         ..${/}..${/}resources${/}elements${/}migo_account_page.yaml
 
 *** Test Cases ***
 New User Onboard Tutorials and Buy Ticket to Check Transaction History
-    [Tags]    e2e   newuser        
+    [Tags]    e2e   newuser            
 
     [Setup]    Launch Migo  Samsung_A505    true
     [Teardown]    Close Application         
@@ -67,7 +67,7 @@ New User Onboard Tutorials and Buy Ticket to Check Transaction History
     #Eliminate Test Account   +62     99999999999
 
 Login Exist User and Check Data Restore 
-    [Tags]    e2e   existuser     data            
+    [Tags]    e2e   existuser     data              
 
     [Setup]    Launch Migo  Samsung_A505
     [Teardown]     Run Keywords     Logout     AND    Close Application     
@@ -217,8 +217,10 @@ Account Page Happy Path
     Check Migo App Tutorail
     Check Help Center
 
+
+#Please make sure you run this test case under public wifi and login
 Exist User Change Network, Download Video and Play the Video
-    [Tags]    networkswitch     e2e   existuser           
+    [Tags]    networkswitch     e2e   existuser     demo          
     [Setup]    Launch Migo  Samsung_A505
     [Teardown]    Close Application
 
@@ -278,6 +280,29 @@ Parental Control Happy Path
     Verify Element Not Display  ${account_parental_set_pin_field1['${mobile}']}
     Sleep  2s
     AppiumLibrary.Capture Page Screenshot   Parental_Disable.png
+
+Catalog Page Display under MDS Wifi
+    [Tags]    e2e   MDS     wifi    demo        
+
+    [Setup]    Launch Migo  Samsung_A505    true
+    [Teardown]    Close Application         
+     
+    Allow Device Permission
+    Browse Catalog First
+    Choose User Genres      Komedi      Anime       Reality  
+    ${timer1}=    Get Current Date  
+    Click Coach Icon
+    Verify Element Display  ${catalog_carousel['${mobile}']}
+    ${timer2}=    Get Current Date
+
+    Login Migo Account   +62     99999999998    
+    Check User Profile Information Storage 
+
+    #Layout/Asset API 
+    #Check the Catalog Showing direly on user UI
+    ${time_catalog}=	Subtract Date From Date     ${timer2}        ${timer1}
+    Log to console  \nUser took ${time_catalog}s hours to see the full catalog page.
+
 
 
 
